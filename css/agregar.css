@@ -1,0 +1,53 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    
+    background-image: url(../images/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+fieldset{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(50px);
+    width: max-content;
+    border-radius: 15px;
+    
+}
+
+legend{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+
+label{
+    display: block;
+    margin-top: 20px;
+}
+
+input{
+    background: none;
+    border-top: groove;
+    margin-top: 5px;
+}
+button{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center; 
+}

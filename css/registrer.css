@@ -1,0 +1,26 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: .1em;
+}
+
+body{
+    /* background: rgb(3,1,47);
+    background: linear-gradient(45deg, rgba(3,1,47,1) 21%, rgba(7,3,88,1) 43%, rgba(9,9,121,1) 77%, rgba(0,143,172,1) 100%); */
+    background-image: url(../images/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+label{
+    display: block;
+    justify-content: center;
+}
+
+img{
+    height: 300px;
+    width: fit-450px;
+}
